@@ -8,3 +8,15 @@ Emails:
     spambase - unsure atm
 	source: https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/'
 
+Stocks:
+    I got all the data from https://www.alphavantage.co , which has a free API to get historical stock data. I'm going to use data from $QQQ's 1min, 5min charts and possibly more should I see fit. I'm also using various EMA (Exponential Moving Average) values.
+
+    I've collected data from two different parts of the API:
+	a) Intraday (extended history) - For every datapoint: time, open, high, low, close, volume
+	b) EMA - for every datapoint: time, EMA
+	
+    I still have to merge the data, but doing a merge around the timestamp shouldn't be complicated
+
+
+
+ 
