@@ -18,5 +18,9 @@ Stocks:
     I still have to merge the data, but doing a merge around the timestamp shouldn't be complicated
 
 
+Drinks:
+    I got photos of vodka, whiskey, and tequila from Bing Image Search from Microsoft Azure.
+    bingimg - the code I used to gather the photos
+    alcohol.zip - folder containing a folder of each drink's photos
 
  
